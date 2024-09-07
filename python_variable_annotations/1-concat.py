@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
-""" 1. Basic annotations - concatenate
+""" 1. Basic annotations - concat
 """
 
-def concatenate(first_string: str, second_string: str) -> str:
-    """ Joins two strings into one.
-    """
-    return f"{first_string}{second_string}"
 
-def concatenate(first_string: str, second_string: str) -> str:
-    """ Joins two strings into one.
+def concat(str1: str, str2: str) -> str:
+    """ Concatenates two strings together.
     """
-    return f"{first_string}{second_string}"
+    return str(str1) + str(str2)
+
+
+def concat(str1: str, str2: str) -> str:
+    """ Concatenates two strings together.
+    """
+    return str(str1) + str(str2)
