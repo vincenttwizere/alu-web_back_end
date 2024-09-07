@@ -1,11 +1,14 @@
 Python - Variable Annotations
-Resources
-Read or watch:
 
-Python 3 typing documentation MyPy cheat sheet Learning Objectives General At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+This project is designed to demonstrate the use of variable annotations in Python. This feature allows for clearer and more maintainable code by specifying the expected data types of variables. Variable annotations were introduced in PEP 484, providing a way to document code for better readability and debugging.
 
-Type annotations in Python 3 How you can use type annotations to specify function signatures and variable types Duck typing How to validate your code with mypy
+Project Overview
 
-Requirements
-General
-Allowed editors: vi, vim, emacs All your files will be interpreted/compiled on Ubuntu 18.04 LTS using python3 (version 3.7) All your files should end with a new line The first line of all your files should be exactly #!/usr/bin/env python3 A README.md file, at the root of the folder of the project, is mandatory Your code should use the pycodestyle style (version 2.5.) All your files must be executable The length of your files will be tested using wc All your modules should have a documentation (python3 -c 'print(import("my_module").doc)') All your classes should have a documentation (python3 -c 'print(import("my_module").MyClass.doc)') All your functions (inside and outside a class) should have a documentation (python3 -c 'print(import("my_module").my_function.doc)' and python3 -c 'print(import("my_module").MyClass.my_function.doc)') A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
+In this project, we explore:
+
+Basic variable annotations: How to annotate variables with types like int, float, str, etc.
+Function annotations: Annotating function parameters and return types.
+Complex data types: Using annotations for lists, tuples, dictionaries, and custom types.
+Optional types: How to handle variables that might also be None using Optional from the typing module.
+Union types: Handling variables that could take multiple types using Union.
+Type hinting for callable functions: Annotating functions that take or return other functions.
